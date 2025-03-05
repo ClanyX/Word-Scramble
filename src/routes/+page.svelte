@@ -127,10 +127,10 @@
 <div>
     <h1>Guess the word</h1>
     <div>Your score: {score}</div>
-    <button class="btn btn-secondary" onclick="{onHintClick}">Hint 💡</button>
+    <button onclick="{onHintClick}">Hint 💡</button>
     {#if statusText}
         <div>{statusText}</div>
-        <button bind:this={resetBtn} class="btn btn-secondary" onclick={() => resetForm()}>Next word</button>
+        <button bind:this={resetBtn} onclick={() => resetForm()}>Next word</button>
     {/if}
     <form id="form">
         <div>
