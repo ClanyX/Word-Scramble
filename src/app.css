@@ -1,1 +1,5 @@
 @import 'tailwindcss';
+
+.inputChar{
+    @apply text-4xl select-all w-20 outline-none text-center mr-5 inline-block uppercase bg-transparent border-b-2 border-blue-500;
+}

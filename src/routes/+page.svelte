@@ -144,7 +144,7 @@
         </div>
         <div>
             {#each letters as leter, index}
-                <input type="text" onkeydown={(e) => inputPress(e, index)} data-index={index} oninput={(e) => checkWord(e, index)} maxlength="1" class="bg-purple-600 text-white border-2 border-white" />
+                <input type="text" onkeydown={(e) => inputPress(e, index)} data-index={index} oninput={(e) => checkWord(e, index)} maxlength="1" class="inputChar" />
             {/each}
         </div>
     </form>
