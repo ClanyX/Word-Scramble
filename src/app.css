@@ -3,3 +3,7 @@
 .inputChar{
     @apply text-4xl select-all w-20 outline-none text-center mr-5 inline-block uppercase bg-transparent border-b-2 border-blue-500;
 }
+
+.btn{
+    @apply bg-blue-500 text-white px-2 py-1 rounded-lg cursor-pointer m-2;
+}

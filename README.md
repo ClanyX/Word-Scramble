@@ -1,38 +1,47 @@
-# sv
+# Word Scramble - Svelte & TypeScript
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Jednoduchá hra Word Scramble postavená pomocí Svelte a TypeScriptu. Hráč musí uhodnout správné slovo z náhodně zamíchaných písmen.
 
-## Creating a project
+## 🚀 Funkce
+- Náhodné generování zamíchaných slov
+- Kontrola správné odpovědi
+- Počítání skóre
+- Minimalistický design
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🛠 Technologie
+- [Svelte](https://svelte.dev/)
+- TypeScript
+- Vite
 
-```bash
-# create a new project in the current directory
-npx sv create
+## 📦 Instalace
 
-# create a new project in my-app
-npx sv create my-app
-```
+1. Naklonujte repozitář:
+   ```sh
+   git clone https://github.com/ClanyX/Word-Scramble.git
+   cd WordScrambleGame
+   ```
 
-## Developing
+2. Nainstalujte závislosti:
+   ```sh
+   npm install
+   ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+3. Spusťte vývojový server:
+   ```sh
+   npm run dev
+   ```
 
-```bash
-npm run dev
+4. Otevřete [http://localhost:5173](http://localhost:5173) v prohlížeči.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+## 🔧 Build
+Pro produkční sestavení použijte:
+```sh
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## 🌟 Přispění
+Pokud chcete přispět, forkni tento repozitář a pošli pull request!
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
+📌 Vyrobeno s ❤️ pomocí Svelte
+

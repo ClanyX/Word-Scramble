@@ -124,22 +124,22 @@
     }
 </script>
 
-<div>
-    <h1>Guess the word</h1>
+<div class="flex flex-col justify-center items-center h-screen">
+    <h1 class="text-4xl font-bold p-4">Guess the word</h1>
     <div>Your score: {score}</div>
-    <button onclick="{onHintClick}">Hint 💡</button>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="{onHintClick}">Hint 💡</button>
     {#if statusText}
         <div>{statusText}</div>
-        <button bind:this={resetBtn} onclick={() => resetForm()}>Next word</button>
+        <button class="btn" bind:this={resetBtn} onclick={() => resetForm()}>Next word</button>
     {/if}
-    <form id="form">
-        <div>
+    <form id="form" class="">
+        <div class="p-4 text-center flex justify-center items-center">
             {#if definitionCount > 0}
-                <button onclick={() => definitionCount--}>←</button>
+                <button class="btn" onclick={() => definitionCount--}>←</button>
             {/if}
-            {definitionExport}
+            {definitionExport}  
             {#if definitionCount < definition.length - 1}
-                <button onclick={() => definitionCount++}>→</button>
+                <button class="btn" onclick={() => definitionCount++}>→</button>
             {/if}
         </div>
         <div>
