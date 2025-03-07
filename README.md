@@ -12,6 +12,7 @@ Jednoduchá hra Word Scramble postavená pomocí Svelte a TypeScriptu. Hráč mu
 - [Svelte](https://svelte.dev/)
 - TypeScript
 - Vite
+- Tailwindcss
 
 ## 📦 Instalace
 
