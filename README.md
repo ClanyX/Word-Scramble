@@ -1,48 +1,48 @@
 # Word Scramble - Svelte & TypeScript
 
-Jednoduchá hra Word Scramble postavená pomocí Svelte a TypeScriptu. Hráč musí uhodnout správné slovo z náhodně zamíchaných písmen.
+A simple Word Scramble game built with Svelte and TypeScript. The player must guess the correct word from randomly scrambled letters.
 
-## 🚀 Funkce
-- Náhodné generování zamíchaných slov
-- Kontrola správné odpovědi
-- Počítání skóre
-- Minimalistický design
+## 🚀 Features
+- Randomly generated scrambled words  
+- Answer validation  
+- Score tracking  
+- Minimalist design
 
-## 🛠 Technologie
+## 🛠 Technologies
 - [Svelte](https://svelte.dev/)
 - TypeScript
 - Vite
 - Tailwindcss
 
-## 📦 Instalace
+## 📦 Installation
 
-1. Naklonujte repozitář:
+1. Clone the repository:
    ```sh
    git clone https://github.com/ClanyX/Word-Scramble.git
    cd WordScrambleGame
    ```
 
-2. Nainstalujte závislosti:
+2. Install dependencies:
    ```sh
    npm install
    ```
 
-3. Spusťte vývojový server:
+3. Start the development server:
    ```sh
    npm run dev
    ```
 
-4. Otevřete [http://localhost:5173](http://localhost:5173) v prohlížeči.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## 🔧 Build
-Pro produkční sestavení použijte:
+For a production build, run:
 ```sh
 npm run build
 ```
 
-## 🌟 Přispění
-Pokud chcete přispět, forkni tento repozitář a pošli pull request!
+## 🌟 Contributing
+If you want to contribute, fork this repository and submit a pull request!
 
 ---
-📌 Vyrobeno s ❤️ pomocí Svelte
 
+📌 Made with ❤️ using Svelte
